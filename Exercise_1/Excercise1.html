@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Praharsha’s Hobby Zone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f3f4f6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: url('Assets/Bg.jpg') center center / cover no-repeat;
+      height: 25vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+    }
+
+    nav {
+      width: 20%;
+      background: #ffe4ec;
+      padding: 30px 20px;
+    }
+
+    nav a {
+      display: block;
+      color: #FF1B54;
+      margin: 15px 0;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #212121;
+      text-decoration: underline;
+      margin-left: 5px;
+    }
+
+    article {
+      width: 80%;
+      padding: 40px 30px;
+      background-color: #fff6fa;
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+
+    section {
+      flex: 1;
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    section h2 {
+      color: #FF1B54;
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+    }
+
+    section img {
+      width: 100%;
+      height: 232px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      color: #333;
+      line-height: 1.6;
+      font-size: 0.95rem;
+      margin-top: 12;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #ffeef2;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #FF1B54;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Praharsha’s Hobby Zone 🎀</h1>
+  </header>
+
+  <main>
+    <nav>
+      <a href="https://en.wikipedia.org/wiki/Reading">Reading Tips</a>
+      <a href="https://en.wikipedia.org/wiki/Gym">Why Gym?</a>
+      <a href="https://www.skillcast.com/blog/how-to-be-professional-at-work">Work Like a Pro</a>
+    </nav>
+
+    <article>
+      <section>
+        <h2>📚 <strong>Reading</strong></h2>
+        <img src="Assets/Reading.jpg" alt="Reading.jpg">
+        <p>I love diving into both fiction and non-fiction; they let me escape reality for a while. From Harry Potter to Stephen King thrillers, and books on entrepreneurship and thinking big—I enjoy them all.</p>
+      </section>
+
+      <section>
+        <h2>💪 <strong>Gym</strong></h2>
+        <img src="Assets/Gym.jpg" alt="Gym.jpg">
+        <p>The gym keeps my mind and body aligned. It’s my go-to for mental peace and stress relief. I focus on strength training, and hitting new PRs always keeps me motivated.</p>
+      </section>
+
+      <section>
+        <h2>🗄️ <strong>Work</strong></h2>
+        <img src="Assets/Work.jpg" alt="Work.jpg">
+        <p>I run a design entity called Design Duh, a team of nine building open-source products for developers and designers. We also offer mentorship sessions and believe design is art—something we express through everything we create.</p>
+      </section>
+    </article>
+  </main>
+
+ <footer>
+  Created by <strong style="color: #fff;">Praharsha</strong> |
+  <a href="https://github.com/praharsha0403/245p.git" target="_blank">GitHub Repo</a>
+</footer>
+
+</body>
+</html>
