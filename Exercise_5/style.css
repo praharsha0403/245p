@@ -1,0 +1,47 @@
+.tabs {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  height: 400px;
+  font-family: Arial, sans-serif;
+}
+
+.tabs__sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  background: #f0f0f0;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tabs__button {
+  display: block;
+  outline: none;
+  border: none;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  background: #e0e0e0;
+  border: 1px solid #999;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tabs__button--active {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.tabs__content {
+  display: none;
+  padding: 30px;
+  width: 100%;
+  border-left: 1px solid #ccc;
+}
+
+.tabs__content--active {
+  display: block;
+  background: #fafafa;
+  font-size: 18px;
+  font-weight: bold;
+}
