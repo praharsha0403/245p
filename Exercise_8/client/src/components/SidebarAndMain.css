@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  padding-top: 80px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #3949ab;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #e8eaf6;
+}
