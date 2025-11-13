@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Carousel - ex6</title>
+  <!-- I linked my external CSS file for styling -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- This is the main carousel container that holds all the slides -->
+  <div class="carousel">
+    <div class="slide__container">
+      <!-- I added a clone of the last image here to make the looping animation look seamless -->
+      <img src="Assets/Work.jpg" id="lastClone" />
+      
+      <!-- These are my main images for the carousel -->
+      <img src="Assets/Gym.jpg" />
+      <img src="Assets/Reading.jpg" />
+      <img src="Assets/Work.jpg" />
+
+      <!-- I also added a clone of the first image at the end for the same looping effect -->
+      <img src="img1.jpg" id="firstClone" />
+    </div>
+  </div>
+
+  <!-- These are my navigation buttons for switching between slides -->
+  <div class="nav-buttons">
+    <button id="prevButton">Prev</button>
+    <button id="nextButton">Next</button>
+  </div>
+
+  <!-- I linked my JS file where all the slide movement logic lives -->
+  <script src="script.js"></script>
+</body>
+</html>
