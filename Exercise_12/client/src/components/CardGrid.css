@@ -1,0 +1,40 @@
+.card-grid {
+  width: 80%;
+  padding: 40px 30px;
+  background-color: #fff6fa;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.card-grid section {
+  flex: 1;
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card-grid section:hover {
+  transform: translateY(-5px);
+}
+.card-grid section h2 {
+  color: #FF1B54;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.card-grid section img {
+  width: 100%;
+  height: 232px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.card-grid section p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}

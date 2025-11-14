@@ -1,0 +1,18 @@
+.sidebar {
+  width: 20%;
+  background: #ffe4ec;
+  padding: 30px 20px;
+}
+.sidebar a {
+  display: block;
+  color: #FF1B54;
+  margin: 15px 0;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.sidebar a:hover {
+  color: #212121;
+  text-decoration: underline;
+  margin-left: 5px;
+}
